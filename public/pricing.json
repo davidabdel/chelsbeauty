@@ -1,0 +1,80 @@
+{
+    "location": "Kellyville",
+    "phone": "04XX XXX XXX",
+    "note": "By Appointment Only",
+    "currencySymbol": "$",
+    "categories": [
+        {
+            "id": "cat-brows-lashes",
+            "name": "Brow & Lash Services",
+            "sortOrder": 1,
+            "isActive": true,
+            "services": [
+                {
+                    "id": "svc-1",
+                    "name": "Lift & Tint",
+                    "price": 25,
+                    "sortOrder": 1,
+                    "isActive": true,
+                    "description": ""
+                },
+                {
+                    "id": "svc-2",
+                    "name": "Lift",
+                    "price": 15,
+                    "sortOrder": 2,
+                    "isActive": true,
+                    "description": ""
+                },
+                {
+                    "id": "svc-3",
+                    "name": "Tint",
+                    "price": 10,
+                    "sortOrder": 3,
+                    "isActive": true,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": "cat-extensions",
+            "name": "Eyelash Extensions",
+            "sortOrder": 2,
+            "isActive": true,
+            "services": [
+                {
+                    "id": "svc-5",
+                    "name": "Volume Lashes",
+                    "price": 60,
+                    "sortOrder": 1,
+                    "isActive": true,
+                    "description": ""
+                },
+                {
+                    "id": "svc-6",
+                    "name": "Classic Lashes",
+                    "price": 70,
+                    "sortOrder": 2,
+                    "isActive": true,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": "cat-treatments",
+            "name": "Treatments",
+            "sortOrder": 3,
+            "isActive": true,
+            "services": [
+                {
+                    "id": "svc-4",
+                    "name": "Botox Treatment",
+                    "price": 35,
+                    "sortOrder": 1,
+                    "isActive": true,
+                    "description": "Treatment details provided during consultation."
+                }
+            ]
+        }
+    ]
+}
