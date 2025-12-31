@@ -749,7 +749,7 @@ export default function App() {
           <div className="flex gap-8 font-sans text-[10px] uppercase tracking-widest text-charcoal/60">
             <button onClick={() => navigateTo('home')}>Home</button>
             <button onClick={() => navigateTo('services')}>Pricing</button>
-            <button onClick={() => navigateTo('admin-login')}>Owner Login</button>
+            <button onClick={() => navigateTo('admin-login')}>Admin</button>
           </div>
           <div className="text-right">
             <p className="font-serif italic text-charcoal">{pricing?.phone}</p>
