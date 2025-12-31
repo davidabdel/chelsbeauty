@@ -315,7 +315,7 @@ const useAuth = () => {
 
   const login = (password: string) => {
     // Simple check against env variable
-    const adminPass = process.env.ADMIN_PASSWORD || 'admin123';
+    const adminPass = process.env.ADMIN_PASSWORD || 'ChelsAdmin3621';
     if (password === adminPass) {
       localStorage.setItem('ceb_admin_session', 'true');
       setIsAuthenticated(true);
