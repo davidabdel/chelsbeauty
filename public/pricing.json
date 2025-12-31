@@ -1,78 +1,85 @@
 {
-    "location": "Kellyville",
-    "phone": "04XX XXX XXX",
-    "note": "By Appointment Only",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
     "currencySymbol": "$",
+    "location": "Kellyville",
+    "phone": "0431 766 280",
+    "note": "Limited spaces available",
     "categories": [
         {
-            "id": "cat-brows-lashes",
+            "id": "brow-lash",
             "name": "Brow & Lash Services",
             "sortOrder": 1,
             "isActive": true,
             "services": [
                 {
-                    "id": "svc-1",
+                    "id": "lift-tint",
                     "name": "Lift & Tint",
                     "price": 25,
+                    "description": "",
+                    "durationMins": null,
                     "sortOrder": 1,
-                    "isActive": true,
-                    "description": ""
+                    "isActive": true
                 },
                 {
-                    "id": "svc-2",
+                    "id": "lift",
                     "name": "Lift",
                     "price": 15,
+                    "description": "",
+                    "durationMins": null,
                     "sortOrder": 2,
-                    "isActive": true,
-                    "description": ""
+                    "isActive": true
                 },
                 {
-                    "id": "svc-3",
+                    "id": "tint",
                     "name": "Tint",
                     "price": 10,
+                    "description": "",
+                    "durationMins": null,
                     "sortOrder": 3,
-                    "isActive": true,
-                    "description": ""
+                    "isActive": true
                 }
             ]
         },
         {
-            "id": "cat-extensions",
-            "name": "Eyelash Extensions",
+            "id": "botox",
+            "name": "Botox Treatment",
             "sortOrder": 2,
             "isActive": true,
             "services": [
                 {
-                    "id": "svc-5",
-                    "name": "Volume Lashes",
-                    "price": 60,
+                    "id": "botox-treatment",
+                    "name": "Botox Treatment",
+                    "price": 35,
+                    "description": "Treatment details provided during consultation.",
+                    "durationMins": null,
                     "sortOrder": 1,
-                    "isActive": true,
-                    "description": ""
-                },
-                {
-                    "id": "svc-6",
-                    "name": "Classic Lashes",
-                    "price": 70,
-                    "sortOrder": 2,
-                    "isActive": true,
-                    "description": ""
+                    "isActive": true
                 }
             ]
         },
         {
-            "id": "cat-treatments",
-            "name": "Treatments",
+            "id": "extensions",
+            "name": "Eyelash Extensions",
             "sortOrder": 3,
             "isActive": true,
             "services": [
                 {
-                    "id": "svc-4",
-                    "name": "Botox Treatment",
-                    "price": 35,
+                    "id": "volume",
+                    "name": "Volume Lashes",
+                    "price": 60,
+                    "description": "",
+                    "durationMins": null,
                     "sortOrder": 1,
-                    "isActive": true,
-                    "description": "Treatment details provided during consultation."
+                    "isActive": true
+                },
+                {
+                    "id": "classic",
+                    "name": "Classic Lashes",
+                    "price": 70,
+                    "description": "",
+                    "durationMins": null,
+                    "sortOrder": 2,
+                    "isActive": true
                 }
             ]
         }
