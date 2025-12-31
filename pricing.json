@@ -1,0 +1,40 @@
+
+{
+  "updatedAt": "2025-01-01T00:00:00.000Z",
+  "currencySymbol": "$",
+  "location": "Kellyville",
+  "phone": "0431 766 280",
+  "note": "Limited spaces available",
+  "categories": [
+    {
+      "id": "brow-lash",
+      "name": "Brow & Lash Services",
+      "sortOrder": 1,
+      "isActive": true,
+      "services": [
+        { "id": "lift-tint", "name": "Lift & Tint", "price": 25, "description": "", "durationMins": null, "sortOrder": 1, "isActive": true },
+        { "id": "lift", "name": "Lift", "price": 15, "description": "", "durationMins": null, "sortOrder": 2, "isActive": true },
+        { "id": "tint", "name": "Tint", "price": 10, "description": "", "durationMins": null, "sortOrder": 3, "isActive": true }
+      ]
+    },
+    {
+      "id": "botox",
+      "name": "Botox Treatment",
+      "sortOrder": 2,
+      "isActive": true,
+      "services": [
+        { "id": "botox-treatment", "name": "Botox Treatment", "price": 35, "description": "Treatment details provided during consultation.", "durationMins": null, "sortOrder": 1, "isActive": true }
+      ]
+    },
+    {
+      "id": "extensions",
+      "name": "Eyelash Extensions",
+      "sortOrder": 3,
+      "isActive": true,
+      "services": [
+        { "id": "volume", "name": "Volume Lashes", "price": 60, "description": "", "durationMins": null, "sortOrder": 1, "isActive": true },
+        { "id": "classic", "name": "Classic Lashes", "price": 70, "description": "", "durationMins": null, "sortOrder": 2, "isActive": true }
+      ]
+    }
+  ]
+}
